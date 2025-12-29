@@ -21,5 +21,5 @@ const userRouter = Router();
     })
 
 module.exports = {
-    UserRoutes: UserRoutes  
+     UserRoutes: userRouter  
 }
