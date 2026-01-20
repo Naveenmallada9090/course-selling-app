@@ -11,7 +11,7 @@ const userRouter = Router();
     userRouter.post("/signin", function(req, res) {
         res.json({
             message: "signup endpoint"
-        })
+        }) 
     })
 
     userRouter.get("/purchases", function(req, res) {
@@ -21,5 +21,5 @@ const userRouter = Router();
     })
 
 module.exports = {
-     UserRoutes: userRouter  
+     userRouter: userRouter  
 }

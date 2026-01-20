@@ -1,5 +1,7 @@
-const { router } = require("express");
-const userRouter = Router();
+const { Router } = require("express");
+const adminRouter = Router();
+console.log("Connected to")
+const { adminModel } = require("../routes/db");
 
 adminRouter.post("/signup", function(req, res) {
         res.json({

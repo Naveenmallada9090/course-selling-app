@@ -15,5 +15,5 @@ courseRouter.get("/preview", function(req, res) {
 })
 
 module.exports = {
-    CourseRoutes: courseRouter
+    courseRouter: courseRouter
 }
